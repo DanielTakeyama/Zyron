@@ -1,16 +1,17 @@
 import './App.css';
-import image from './assets/goals.svg'
+import locales from './locales/locales.json';
+import image from './assets/goals.svg';
 
 function App() {
   return (
     <main className="containerMain">
       <section className="containerApresentation">
         <h1 className="title">
-          Maximize sua produtividade, <br />
-          organize seu tempo e<br />
-          conquiste suas metas com Zyron.<br />
+            {locales.headersApp.headerApresentationPartOne}<br />
+            {locales.headersApp.headerApresentationPartTwo}<br />
+            {locales.headersApp.headerApresentationPartThree}<br />
         </h1>
-        <image src={image} alt="teste" width="800" height="800" />
+        <img className="imageApresentation" src={image} alt="teste" width="730" height="650" />
       </section>
       <section className="containerLogin"></section>
     </main>

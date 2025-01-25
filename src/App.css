@@ -10,18 +10,29 @@
   width:60%;
   height:100%;
   background:linear-gradient(#B11FF5,#4B2C98);
+  position:relative;
+  z-index: 0;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 
 .containerLogin{
   width:40%;
   height:100%;
+  background-color:#F4F7FE;
 }
 
 .title{
   color:white;
-  font-size:30px;
+  font-size:35px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top:100px;
   margin-left:100px;
+}
+
+.imageApresentation{
+  position:absolute;
+  right:50px;
+  bottom:10px;
+  z-index: 9999;
 }
