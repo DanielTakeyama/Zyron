@@ -1,0 +1,14 @@
+.containerForm{
+    width:440px;
+    height:520px;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingForm{
+    color:#1B2559;
+}

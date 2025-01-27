@@ -1,0 +1,13 @@
+.buttonDefault{
+    width:315px;
+    height:40px;
+    background:linear-gradient(#B11FF5,#4B2C98);
+    color:white;
+    border-radius:20px;
+    border:none;
+    font-size:15px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+    box-shadow: 4px 4px 8px #888888;
+}

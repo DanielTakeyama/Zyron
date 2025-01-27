@@ -1,4 +1,14 @@
 {
+    "form":{
+        "formLogin": {
+            "heading":"Acesse a sua conta",
+            "enterText":"E-mail",
+            "passwordText":"Senha",
+            "buttonText":"Entrar",
+            "remeberPasswordText":"Esqueci minha senha",
+            "notice":"Não tem uma conta? Clique Aqui e crie uma agora mesmo!"
+        }
+    },
     "headersApp":{
         "headerApresentationPartOne": "Maximize sua produtividade,",
         "headerApresentationPartTwo": "organize seu tempo e ",
