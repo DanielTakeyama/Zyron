@@ -31,3 +31,15 @@
 .colorDefaultText{
     color:#1B2559;
 }
+
+
+
+/*--------------------[Medias Queries para Desktop]--------------------*/
+
+@media screen and (max-width:1200px){
+    .fontH1{
+        font-size:25px;
+    }
+
+  }
+  

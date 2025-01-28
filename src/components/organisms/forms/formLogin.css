@@ -6,6 +6,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    margin:50px;
 }
 
 .contentData{
@@ -52,3 +54,19 @@
     text-decoration: none;
     color:#1B2559;
 }
+
+
+
+/*--------------------[Medias Queries para celulares e tablets]--------------------*/
+
+@media screen and (max-width:1200px){
+    .containerForm{
+      width:400px;
+    }
+  }
+
+@media screen and (max-width:768px){
+    .containerForm{
+      width:360px;
+    }
+  }
