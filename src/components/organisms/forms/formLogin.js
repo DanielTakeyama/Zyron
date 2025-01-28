@@ -16,8 +16,8 @@ export default function Form(){
                 <input className="inputDefault" type="password" name="password" placeholder="Digite a sua senha aqui"/>
 
                 <Button onClick="teste" text={text.form.formLogin.buttonText}/>
-                <a className="fontPDefault forgetPassword" href="">Esqueci minha senha</a>
-                <p className="fontPDefault registerUser">Não tem uma conta ? <a href="" className="fontPBold registerUserLink">Clique Aqui</a> e crie uma agora mesmo!</p>
+                <a className="fontPDefault forgetPassword" href="/">Esqueci minha senha</a>
+                <p className="fontPDefault registerUser">Não tem uma conta ? <a href="/" className="fontPBold registerUserLink">Clique Aqui</a> e crie uma agora mesmo!</p>
             </section>
         </form>
     );

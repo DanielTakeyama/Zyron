@@ -1,34 +1,15 @@
-import './App.css';
-import './styles/base.css'
-import locales from './locales/locales.json';
-import image from './assets/goals.svg';
-import Form from './components/organisms/forms/formLogin.js';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./components/pages/login/login";
+import Dashboard from "./components/pages/dashboard/dashboard";
 
 function App() {
   return (
-    <main className="containerMain">
-
-      <section className="containerApresentation shadowDefault">
-
-        <section className="titleContentApresentation">
-          <h1 className="title fontH1">
-              {locales.headersApp.headerApresentationPartOne}<br />
-              {locales.headersApp.headerApresentationPartTwo}<br />
-              {locales.headersApp.headerApresentationPartThree}<br />
-          </h1>
-        </section>{/*Fim do titleContentApresentation*/}
-
-        <section className="contentImageApresentation">
-          <img className="imageApresentation" src={image} alt="Gráfico de metas"/>
-        </section>{/*Fim do contentImageApresentation*/}
-
-      </section>{/*Fim do containerApresentation*/}
-
-      <section className="containerLogin">
-        <Form />
-      </section>{/*Fim do containerLogin*/}
-
-    </main>//Fim do containerMain
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </Router>
   );
 }
 
