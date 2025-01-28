@@ -1,5 +1,6 @@
 import React from 'react';
 import './buttonDefault.css';
+import '../../../styles/base.css'
 
 interface buttonInterface {
     text: string;
@@ -8,6 +9,6 @@ interface buttonInterface {
 
 export default function Button({text, onClick}:buttonInterface){
     return (
-        <button className="buttonDefault" onClick={onClick}>{text}</button>
+        <button className="buttonDefault shadowDefault" onClick={onClick}>{text}</button>
     );
 }

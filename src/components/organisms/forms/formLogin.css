@@ -4,11 +4,51 @@
     background-color:white;
     border-radius:20px;
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.contentData{
+    width:320px;
+    min-height:50px;
+}
+
 .headingForm{
+    text-align: center;
+    color:#1B2559;
+    
+    margin-bottom:30px;
+}
+
+.inputDefault{
+    width:315px;
+    height:40px;
+
+    padding-left:20px;
+    margin-bottom:20px;
+
+    border:none;
+    border-radius: 10px;
+
+    background-color:#F1F1F1;
+    
+}
+
+.forgetPassword{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    color:#1B2559;
+    text-decoration: none;
+}
+
+.registerUser{
+    margin-top:30px;
+    text-align:center;
+    color:#1B2559;
+}
+
+.registerUserLink{
+    text-decoration: none;
     color:#1B2559;
 }

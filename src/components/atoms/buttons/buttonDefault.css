@@ -9,5 +9,7 @@
     font-weight: 600;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor:pointer;
-    box-shadow: 4px 4px 8px #888888;
+
+    margin-top:10px;
+    margin-bottom:10px;
 }
