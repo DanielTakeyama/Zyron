@@ -1,4 +1,4 @@
-import Menu from '../../molecules/dashboard/sideMenu';
+import Menu from '../../molecules/sideMenu/sideMenu';
 
 export default function Dashboard(){
     return <Menu />

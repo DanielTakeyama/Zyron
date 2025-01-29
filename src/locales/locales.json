@@ -16,6 +16,7 @@
     },
     "sideMenu": {
         "title":"Zyron",
-        "dashboard":"Dashboard"
+        "dashboard":"Dashboard",
+        "createList": "Criar Lista"
     }
 }

@@ -60,22 +60,10 @@
     padding-left:10px;
 }
 
-.createList{
-    color:white;
-    cursor:pointer;
-    padding-top:20px;
-    margin-right:20px;
-}
-
 .active{
     background-color: #AF1FF3;
 }
 
 .iconList{
     margin-left:20px;
-}
-
-.iconAdd{
-    transform:translateY(4px);
-    margin-right:3px;
 }
