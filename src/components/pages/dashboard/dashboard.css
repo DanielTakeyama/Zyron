@@ -1,0 +1,8 @@
+/*O menu tem 300px de largura*/
+
+.containerDashboard{
+    width:100%;
+    height:100%;
+
+    display:flex;
+}
