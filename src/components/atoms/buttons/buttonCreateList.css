@@ -1,0 +1,22 @@
+.createList{
+    color:white;
+    cursor:pointer;
+    padding-top:20px;
+    margin-right:20px;
+}
+
+.createList:hover{
+    transform:translateY(-5px);
+    font-size:20px;
+}
+
+.iconAdd{
+    transform:translateY(4px);
+    margin-right:3px;
+}
+
+.textAdd{
+    color:white;
+    text-decoration: none;
+    padding-left:10px;
+}

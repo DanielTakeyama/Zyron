@@ -24,6 +24,11 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.fontMenu{
+    font-size:18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .shadowDefault{
     box-shadow: 4px 4px 8px #888888;
 }
