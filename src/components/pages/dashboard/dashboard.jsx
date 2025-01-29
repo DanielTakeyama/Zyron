@@ -1,11 +1,18 @@
 import './dashboard.css'
-import Menu from '../../molecules/sideMenu/sideMenu';
+import SideMenu from '../../molecules/sideMenu/sideMenu';
+import SupMenu from '../../molecules/supMenu/supMenu';
+import Content from '../../molecules/content/content';
 
 export default function Dashboard(){
     return (
         <main className="containerDashboard">
-            <Menu />
-            <h1>teste</h1>
+            <nav className="containerDashboardSideMenu">
+                <SideMenu />
+            </nav>
+            <section className="containerDashboardData">
+                <SupMenu />
+                <Content />
+            </section>
         </main>
     );
 }
