@@ -15,13 +15,13 @@ Posteriormente será adicionado mais informações.
 5. Tabelas no banco de dados
 
 
-
-
 ### Cadastro de Tarefas (Wireframe)
-- Nome da lista de tarefa
+- Nome da lista de tarefa (MAX 20 CHAR)
+- Icone da lista
 - Se vai ser uma lista privada (com senha) ou não
 - Se deseja compartilhar essa lista com alguma amigo, se sim, qual ?
 
+Obs: Só pode criar até 9 tarefas no plano Free, mais que isso somente no plano pago (Desenvolver overflow bonito);
 
 
 
