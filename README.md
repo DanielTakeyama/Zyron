@@ -15,6 +15,16 @@ Posteriormente será adicionado mais informações.
 5. Tabelas no banco de dados
 
 
+
+
+### Cadastro de Tarefas (Wireframe)
+- Nome da lista de tarefa
+- Se vai ser uma lista privada (com senha) ou não
+- Se deseja compartilhar essa lista com alguma amigo, se sim, qual ?
+
+
+
+
 ## Initialize
 In the project directory, you can run:
 
