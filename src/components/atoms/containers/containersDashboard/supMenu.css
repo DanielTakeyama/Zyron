@@ -1,8 +1,9 @@
 .supMenu{
-    width: 100%;
+    width: 95%;
     height:10%;
-    background-color:green;
     display:flex;
     flex-direction: row;
+    justify-content: right;
+
     margin-bottom:20px;
 }

@@ -1,7 +1,6 @@
 .containerUserProfile{
     width:300px;
     height:100%;
-    background-color:red;
 
     display:flex;
     flex-direction: row;
@@ -10,14 +9,28 @@
 .containerDataUserProfile{
     width:200px;
     height:100%;
-    background-color:purple;
 
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: right;
 }
 
 .containerImageUserProfile{
     width:100px;
     height:100%;
-    background-color:yellow;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameUser{
+    color:#1B2559;
+}
+
+.imageUser{
+    width:70px;
+    height:70px;
+    border-radius: 100px;
 }
