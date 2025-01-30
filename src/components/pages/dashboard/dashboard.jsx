@@ -1,18 +1,7 @@
-import './dashboard.css'
-import SideMenu from '../../molecules/sideMenu/sideMenu';
-import SupMenu from '../../molecules/supMenu/supMenu';
-import Content from '../../molecules/content/content';
+import Dashboard from '../../organisms/dashboard/dashboard'
 
-export default function Dashboard(){
+export default function DashboardMain(){
     return (
-        <main className="containerDashboard">
-            <nav className="containerDashboardSideMenu">
-                <SideMenu />
-            </nav>
-            <section className="containerDashboardData">
-                <SupMenu />
-                <Content />
-            </section>
-        </main>
+        <Dashboard />
     );
 }

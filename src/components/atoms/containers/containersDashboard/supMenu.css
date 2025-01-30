@@ -1,0 +1,8 @@
+.supMenu{
+    width: 100%;
+    height:10%;
+    background-color:green;
+    display:flex;
+    flex-direction: row;
+    margin-bottom:20px;
+}

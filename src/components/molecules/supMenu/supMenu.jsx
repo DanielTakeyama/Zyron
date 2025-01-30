@@ -1,10 +1,10 @@
 import './supMenu.css';
+import UserProfile from '../../atoms/supMenu/userProfile.tsx';
+
 
 
 export default function SupMenu(){
-    return (
-        <nav className="containerSupMenu">
-            <h1>teste</h1>
-        </nav>
+    return(
+        <UserProfile name="Daniel Takeyama"/>
     );
 }
