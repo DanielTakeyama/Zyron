@@ -1,10 +1,10 @@
 import './login.css';
-import '../../../styles/base.css'
+import '../../../styles/base.css';
 import locales from '../../../locales/locales.json';
 import image from '../../../assets/goals.svg';
 import Form from '../../organisms/forms/formLogin';
 
-function App() {
+export default function Login() {
   return (
     <main className="containerMain">
 
@@ -32,4 +32,3 @@ function App() {
   );
 }
 
-export default App;
