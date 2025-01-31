@@ -6,7 +6,7 @@
     flex-direction: row;
 }
 
-.containerDataUserProfile{
+.containerDataUserProfile{ 
     width:200px;
     height:100%;
 
@@ -33,4 +33,11 @@
     width:70px;
     height:70px;
     border-radius: 100px;
+    cursor:pointer;
+}
+
+.myProfileFont{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:13px;
+    cursor:pointer;
 }
