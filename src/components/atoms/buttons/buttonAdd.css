@@ -1,0 +1,10 @@
+.addButton{
+    font-size:20px;
+    margin-right:20px;
+    text-decoration: none;
+    color:#3C00EF;
+}
+
+.iconAdd{
+    transform:translateY(0.1px);
+}
