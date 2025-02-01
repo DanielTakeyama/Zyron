@@ -18,5 +18,9 @@
         "title":"Zyron",
         "dashboard":"Dashboard",
         "createList": "Criar Lista"
+    },
+    "buttons":{
+        "addButton":"Adicionar",
+        "filterButton":"Filtros"
     }
 }

@@ -1,5 +1,7 @@
-import Menu from '../../molecules/sideMenu/sideMenu';
+import Dashboard from '../../organisms/dashboard/dashboard'
 
-export default function Dashboard(){
-    return <Menu />
+export default function DashboardMain(){
+    return (
+        <Dashboard />
+    );
 }

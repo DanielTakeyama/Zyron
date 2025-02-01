@@ -1,0 +1,9 @@
+.data{
+    width:95%;
+    height:85%;
+
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    border-radius:10px;
+}
