@@ -1,5 +1,5 @@
 import React from 'react'
-import StatusPending from '../components/molecules/status/statuspending.tsx';
+import StatusPending from '../components/molecules/status/statusPending.tsx';
 import StatusProgress from '../components/molecules/status/statusProgress.tsx';
 import StatusCompleted from '../components/molecules/status/statusCompleted.tsx';
 
@@ -16,8 +16,21 @@ export function filterList(array:ListItem[], nameList: string | null):React.Reac
     if(filteredData.length > 0){
         const data = filteredData.flatMap(
             (obj)=>obj.dadosLista.map(
-                item=><li className="itemLista fontPDefault" key={item.id}>{item.valor} <StatusCompleted text={item.status}/></li>
-            )//Fim do Map
+                (item) => {
+                            let statusComponent;
+                            if(item.status === "Pendente"){
+                                statusComponent = <StatusPending text={item.status}/>
+                            }else if(item.status === "Em Andamento"){
+                                statusComponent = <StatusProgress text={item.status}/>
+                            } else {
+                                statusComponent = <StatusCompleted text={item.status}/>
+                            }
+                            return (
+                                <li className="itemLista fontPDefault" key={item.id}>
+                                    {item.valor} {statusComponent}
+                                </li>
+                            );
+        })//Fim do Map
         )//Fim do FlatMap
         return data
     } else {

@@ -8,5 +8,5 @@ interface StatusProps{
 }
 
 export default function Status( {text, className}:StatusProps ){
-    return <p className={`fontPBold containerStatus ${className}`}>{text}</p>
+    return <p className={`fontPDefault containerStatus ${className}`}>{text}</p>
 }
