@@ -9,21 +9,21 @@ import { useSearchParams } from 'react-router-dom';
 
 export default function DataDashboard(){
     const [searchParams] = useSearchParams();
-    const list = searchParams.get("list");
+    const listValueGet = searchParams.get("list");
 
     return (
         <section className="containerAllData">
             <section className="containerTitleData">
-                <h1 className="fontH2 titleData">{!list ? "Dashboard" : list}</h1>
+                <h1 className="fontH2 titleData">{!listValueGet ? "Dashboard" : listValueGet}</h1>
             </section>
             
-            <section className={!list ? "invisible" : "containerActionButtons"}>
-                <ButtonAdd list={list} />
-                <ButtonFilter list={list} />
+            <section className={!listValueGet ? "invisible" : "containerActionButtons"}>
+                <ButtonAdd list={listValueGet} />
+                <ButtonFilter list={listValueGet} />
             </section>
 
             <section className="containerDataDb">
-                <Data lista={list}/>
+                <Data lista={listValueGet}/>
             </section>
         </section>
     );
