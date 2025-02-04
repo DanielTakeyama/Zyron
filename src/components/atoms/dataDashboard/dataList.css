@@ -1,8 +1,10 @@
 .containerItemLista{
     width:95%;
-    height:95%;
+    height:85%;
 
-    padding-top:30px;   
+    margin-top:20px;   
+    padding-right:10px;
+    overflow-y: auto;
 }
 
 .itemLista{
@@ -10,8 +12,8 @@
     height:50px;
     
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 
     list-style-type: none;
     flex-shrink: 0;
@@ -20,8 +22,10 @@
     margin-bottom:10px;
 
     border-radius: 10px;
+    border:1px solid rgba(0,0,0,0.1);
 
-    box-shadow: 2px 6px 7px #888888;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+    position:relative;
 }
 
 .itemLista:hover{

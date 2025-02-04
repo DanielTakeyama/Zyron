@@ -16,7 +16,7 @@ export default function Menu(){
                 <h1 className="titleZyron fontH1">{text.sideMenu.title}</h1>
             </section>{/*Fim da section titleZyron */}
 
-            <ul className="containerItemsMenu">
+            <ul className="containerItemsMenu scrollBar">
                 <li className={!list ? "fontMenu active" : "fontMenu"}><img className="iconList" src={iconList} alt="icon list" width="30" height="30"/><Link className="itemMenu" to="/dashboard">{text.sideMenu.dashboard}</Link></li>
                 <ItemsMenu param={list}/>
             </ul>
