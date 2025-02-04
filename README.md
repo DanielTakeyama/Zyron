@@ -2,25 +2,25 @@
 
 
 ### Metas diárias
-05/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
-06/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
-07/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
+- 05/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
+- 06/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
+- 07/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
 
-08/02 - Desenvolver o Front-end da **criação de lista** (Design já feito no FIGMA)
-09/02 - Desenvolver o Front-end da **edição da lista** (Design já feito no FIGMA)
-10/02 - Desenvolver a lógica para **criação de lista** + **Back-end**
+- 08/02 - Desenvolver o Front-end da **criação de lista** (Design já feito no FIGMA)
+- 09/02 - Desenvolver o Front-end da **edição da lista** (Design já feito no FIGMA)
+- 10/02 - Desenvolver a lógica para **criação de lista** + **Back-end**
 
-11/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
+- 11/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
 
-12/02 - Desenvolver a lógica para **criação de lista** + **Back-end**
-13/02 - Desenvolver a lógica para **edição da lista** + **Back-end**
+- 12/02 - Desenvolver a lógica para **criação de lista** + **Back-end**
+- 13/02 - Desenvolver a lógica para **edição da lista** + **Back-end**
 
-14/02 - Desenvolver o Front-end da **criação dos itens dentro da lista** (Design já feito no FIGMA)
-15/02 - Desenvolver o Front-end da **criação dos itens dentro da lista** (Design já feito no FIGMA)
-16/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
-17/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
+- 14/02 - Desenvolver o Front-end da **criação dos itens dentro da lista** (Design já feito no FIGMA)
+- 15/02 - Desenvolver o Front-end da **criação dos itens dentro da lista** (Design já feito no FIGMA)
+- 16/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
+- 17/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
 
-18/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
+- 18/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
 
 
 ### O que falta desenvolver ?
