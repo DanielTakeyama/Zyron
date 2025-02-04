@@ -23,7 +23,9 @@ export default function DataDashboard(){
             </section>
 
             <section className="containerDataDb">
-                <Data lista={listValueGet}/>
+                {
+                    !listValueGet ? <h1>COMPONENTE DO DASHBOARD AQUI</h1> : <Data lista={listValueGet}/>
+                }
             </section>
         </section>
     );

@@ -8,7 +8,7 @@ interface itemsMenuProps{
 }
 
 export default function ItemsMenu({param}:itemsMenuProps){
-    const dadosMenu = ["Mercado", "Lembretes", "Faculdade", "Tarefas", "Pesquisas", "testes", "projetos", "Analise"];
+    const dadosMenu = ["Mercado", "Lembretes", "Faculdade", "Tarefas", "Pesquisas", "Testes", "Projetos"];
     const dados = dadosMenu.map((dado) => 
         <li key={dado} className={param === dado ? "fontMenu active" : "fontMenu"}>
             <img className="iconList" src={iconList} alt="icon list" width="30" height="30"/>

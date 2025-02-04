@@ -8,11 +8,18 @@ Posteriormente será adicionado mais informações.
 - Falta fazer todo o back-end, principalmente a parte de validação e sanitização dos dados
 
 ### O que falta desenvolver ?
-1. Página de registro de usuário
-2. Página de registro de tarefas
-3. Página de listagem de tarefas
-4. POP-UP de atualização de tarefas
-5. Tabelas no banco de dados
+1. POP-UP de registro de lista
+2. POP-UP de registro de tarefas
+3. POP-UP de edição de lista
+4. POP-UP de edição de tarefas
+5. Página de Perfil do Usuário
+6. Página de registro de usuário
+7. Lógica de listagem de tarefas por status via GET
+8. Lógica de criar/editar lista via GET
+9. Lógica de criar/editar tarefas via GET
+10. Banco de dados e Tabelas
+11. Todo o back-end pois não fiz nada kk
+12. Molde de notificações
 
 
 ### Cadastro de Tarefas (Wireframe)

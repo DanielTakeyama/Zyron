@@ -25,12 +25,13 @@ export function filterList(array:ListItem[], nameList: string | null):React.Reac
                             } else {
                                 statusComponent = <StatusCompleted text={item.status}/>
                             }
+                            
                             return (
                                 <li className="itemLista fontPDefault" key={item.id}>
                                     {item.valor} {statusComponent}
                                 </li>
                             );
-        })//Fim do Map
+            })//Fim do Map
         )//Fim do FlatMap
         return data
     } else {

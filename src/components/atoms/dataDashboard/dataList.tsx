@@ -13,7 +13,7 @@ export default function DataDashboard( {lista}:DataDashboardProps ){
     const data = getList();
     
     return(
-        <ul className="containerItemLista">
+        <ul className="containerItemLista scrollBar">
             {
                 filterList(data, lista)
             }
