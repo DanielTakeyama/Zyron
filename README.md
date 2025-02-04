@@ -1,12 +1,33 @@
 ## Zyron - Ferramenta de produtividade
-Posteriormente será adicionado mais informações.
+
+
+### Metas diárias
+05/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
+06/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
+07/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
+
+08/02 - Desenvolver o Front-end da **criação de lista** (Design já feito no FIGMA)
+09/02 - Desenvolver o Front-end da **edição da lista** (Design já feito no FIGMA)
+10/02 - Desenvolver a lógica para **criação de lista** + **Back-end**
+
+11/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
+
+12/02 - Desenvolver a lógica para **criação de lista** + **Back-end**
+13/02 - Desenvolver a lógica para **edição da lista** + **Back-end**
+
+14/02 - Desenvolver o Front-end da **criação dos itens dentro da lista** (Design já feito no FIGMA)
+15/02 - Desenvolver o Front-end da **criação dos itens dentro da lista** (Design já feito no FIGMA)
+16/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
+17/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
+
+18/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
 
 
 ### O que falta desenvolver ?
-1. POP-UP de registro de lista
+~~1. POP-UP de registro de lista~~
 2. POP-UP de registro de tarefas
 3. POP-UP de edição de lista
-4. POP-UP de edição de tarefas
+~~4. POP-UP de edição de tarefas~~
 5. Página de Perfil do Usuário
 6. Página de registro de usuário
 7. Lógica de listagem de tarefas por status via GET
