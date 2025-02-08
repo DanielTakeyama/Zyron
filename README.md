@@ -1,5 +1,25 @@
 ## Zyron - Ferramenta de produtividade
 
+### O que falta desenvolver ?
+1. POP-UP de registro de lista
+![Registro de Lista](src/assets/readme/createList.png)
+2. POP-UP de registro de tarefas
+3. POP-UP de edição de lista
+![Registro de Lista](src/assets/readme/editList.png)
+4. POP-UP de edição de tarefas
+![Registro de Lista](src/assets/readme/editItem.png)
+5. Página de Perfil do Usuário
+6. Página de registro de usuário
+7. Lógica de listagem de tarefas por status via GET
+8. Lógica de criar/editar lista via GET
+9. Lógica de criar/editar tarefas via GET
+10. Banco de dados e Tabelas
+11. Todo o back-end pois não fiz nada kk
+12. Molde de notificações
+13. Colocar um check-box dentro de cada item da tarefa
+14. Colocar os termos de uso do aplicativo na página de login para o usuario aceitar quando criar a conta
+15. Desenvolver todo o dashboard
+16. Deixar o conteudo dos STATUS FIXOS
 
 ### Metas diárias
 - 05/02 - **Criar** e **Relacionar** as **tabelas do sistema** no **Banco de Dados**
@@ -21,25 +41,6 @@
 - 17/02 - Desenvolver a lógica para **criação dos itens dentro da lista** + **Back-end**
 
 - 18/02 - **(FOLGA)** Fazer os Designs que estão faltando do sistema no Figma
-
-
-### O que falta desenvolver ?
-~~1. POP-UP de registro de lista~~
-2. POP-UP de registro de tarefas
-3. POP-UP de edição de lista
-~~4. POP-UP de edição de tarefas~~
-5. Página de Perfil do Usuário
-6. Página de registro de usuário
-7. Lógica de listagem de tarefas por status via GET
-8. Lógica de criar/editar lista via GET
-9. Lógica de criar/editar tarefas via GET
-10. Banco de dados e Tabelas
-11. Todo o back-end pois não fiz nada kk
-12. Molde de notificações
-13. Colocar um check-box dentro de cada item da tarefa
-14. Colocar os termos de uso do aplicativo na página de login para o usuario aceitar quando criar a conta
-15. Desenvolver todo o dashboard
-16. Deixar o conteudo dos STATUS FIXOS
 
 
 ### BUGS PARA RESOLVER 
