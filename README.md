@@ -1,5 +1,3 @@
-## Zyron - Ferramenta de produtividade
-
 ## O que falta desenvolver ?
 
 ### Paginas & POP-UPS
