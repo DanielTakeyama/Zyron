@@ -21,7 +21,7 @@ export default function Menu(){
                 <ItemsMenu param={list}/>
             </ul>
 
-            <section className="containerCreateList">
+            <section className="ctCreateList">
                 <ButtonCreateList />
             </section>
             

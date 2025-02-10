@@ -1,0 +1,13 @@
+.containerCreateList{
+    width: 465px;
+    height:300px;
+    background-color:#F4F7FE;
+    position:absolute;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius:10px;
+}

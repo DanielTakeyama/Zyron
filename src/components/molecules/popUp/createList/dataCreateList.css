@@ -1,0 +1,22 @@
+.containerDataCreateList{
+    width:100%;
+    height:100%;
+}
+.containerTitleCreateList{
+    width:100;
+    height:50px;
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+}
+
+.inputTextFormCreateList{
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    padding-left:10px;
+}
+
+#nameList{
+    width:280px;
+}

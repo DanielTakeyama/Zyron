@@ -22,5 +22,8 @@
     "buttons":{
         "addButton":"Adicionar",
         "filterButton":"Filtros"
+    },
+    "createList":{
+        "title":"Criar Lista"
     }
 }
