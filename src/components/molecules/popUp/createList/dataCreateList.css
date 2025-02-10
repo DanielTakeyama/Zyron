@@ -3,20 +3,42 @@
     height:100%;
 }
 .containerTitleCreateList{
-    width:100;
+    width:100%;
     height:50px;
     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding-left:20px;
 }
+.containerContentCreateList{
+    width:100%;
+    height:calc(100% - 50px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .inputTextFormCreateList{
+    margin-top:10px;
     height:30px;
     border-radius: 10px;
     border:none;
     padding-left:10px;
 }
 
+#closeCreateList{
+    padding-right: 20px;
+    color:red;
+    cursor:pointer;
+}
+
 #nameList{
-    width:280px;
+    width:315px;
+}
+
+.containerContentFormCreateList{
+    width:315px;
+    height:150px;
 }
